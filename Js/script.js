@@ -58,3 +58,23 @@ contactForm.addEventListener('submit', (e) => {
         alert('Please fill in all fields.');
     }
 });
+// Dark Mode Toggle
+const toggleBtn = document.getElementById('darkModeToggle');
+const body = document.body;
+
+// Load saved theme
+if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark-mode');
+}
+
+// Toggle Dark Mode
+toggleBtn.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    // Save preference
+    if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+    }
+});
