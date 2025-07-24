@@ -6,6 +6,7 @@
 - JavaScript
 
 ## 📁 โครงสร้างไฟล์
+<pre> <code> ```
 .
 ├── Js
 │   └── script.js
@@ -20,9 +21,7 @@
 │   ├── picture3.jpg
 │   └── wheater.png
 ├── index.html
-└── structure.txt
-
-4 directories, 11 files
+└── structure.txt ``` </code> </pre>
 
 ## 🚀 การนำโค้ดไปใช้งาน
 git clone git@github.com:sunPhutcharapon/portfolio-website.git
